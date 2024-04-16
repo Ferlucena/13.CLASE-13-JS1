@@ -43,20 +43,19 @@ const z = 30;
 console.log("Valor de z después de la declaración:"+ z); // Salida: 30
 
 // Elevación de variables con var
-console.log("Valor de a antes de la declaración:"+ a); // Salida: undefined
-var a;
-a = 40;
-let a = 30
-console.log("Valor de a después de la declaración:"+ a); // Salida: 40
+console.log("Valor de a antes de la declaración:"+ n); // Salida: undefined
+var n;
+n = 40;
+console.log("Valor de a después de la declaración:"+ n); // Salida: 40
 
 // Elevación de variables con let y const
 //console.log("Valor de b antes de la declaración:"+ b); // Error: b is not defined
-let b;
-b = 50;
-console.log("Valor de b después de la declaración:"+ b); // Salida: 50
+let m;
+m = 50;
+console.log("Valor de b después de la declaración:"+ m); // Salida: 50
 
 //console.log("Valor de c antes de la declaración:"+ c); // Error: c is not defined
-const c = 60;
-console.log(`Valor de c después de la declaración: ${c}`); // Salida: 60
+const p = 60;
+console.log(`Valor de c después de la declaración: ${p}`); // Salida: 60
 
 
